@@ -82,6 +82,8 @@ ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requiremen
         # For Ruby
 
         "libjemalloc-dev",
+        "libffi-dev",
+        "libyaml-dev",
         "curl",
         "build-essential",
         "libreadline-dev",
